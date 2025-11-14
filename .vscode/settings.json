@@ -1,0 +1,9 @@
+{
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "bash",
+      "args": ["-c", "exec bash --init-file <(echo 'source /usr/local/share/nvm/nvm.sh; nvm use 2>/dev/null; clear; source ~/.bashrc 2>/dev/null || true')"]
+    }
+  }
+}
