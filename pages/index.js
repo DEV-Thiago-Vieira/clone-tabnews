@@ -1,4 +1,6 @@
 import Head from "next/head";
+import { Analytics } from "@vercel/analytics/next"
+
 
 function Home() {
   return (
@@ -42,6 +44,7 @@ function Home() {
           <p>Atenciosamente, Samurai.</p>
         </main>
       </div>
+      <Analytics />
     </>
   );
 }
