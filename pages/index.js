@@ -1,6 +1,5 @@
 import Head from "next/head";
-import { Analytics } from "@vercel/analytics/next"
-
+import { Analytics } from "@vercel/analytics/react";
 
 function Home() {
   return (
